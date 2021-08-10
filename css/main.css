@@ -837,7 +837,6 @@ mob-menu .mob-social {
 @media screen and (min-width: 768px) {
   .list__features {
     display: flex;
-    flex-wrap: wrap;
     margin-left: -30px;
   }
 }
@@ -1237,6 +1236,13 @@ mob-menu .mob-social {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-conteiner {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
 .logo-footer {
   font-family: var(--secondery-font);
   font-weight: 700;
@@ -1246,6 +1252,12 @@ mob-menu .mob-social {
   color: #ffffff;
   display: flex;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-footer {
+    margin-right: auto;
+  }
 }
 
 .address {
@@ -1366,9 +1378,8 @@ mob-menu .mob-social {
 }
 
 .mail-foter {
+  width: 100%;
   display: flex;
-  align-items: center;
-  margin-top: 20px;
 }
 
 .footer-input {

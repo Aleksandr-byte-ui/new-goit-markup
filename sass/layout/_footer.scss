@@ -19,7 +19,11 @@
     .footer-adress {
         margin-bottom: 60px;}
     }   
-  
+    @media screen and (min-width: 1200px){
+    .footer-conteiner {
+        display: flex;
+        align-items: baseline;}
+    }
 
   .logo-footer {
     font-family: var(--secondery-font);
@@ -32,7 +36,10 @@
      margin-bottom: 20px;
   
   }
-  
+  @media screen and (min-width: 1200px){
+.logo-footer {
+    margin-right: auto;}
+}
   .address {
     width: 231px;
     height: 21px;
@@ -143,9 +150,8 @@
       fill:var(--wait-color);
   }
   .mail-foter{
+    width: 100%;
     display: flex;
-    align-items: center;
-    margin-top: 20px;
   }
   .footer-input{
     width: 100%;
