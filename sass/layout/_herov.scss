@@ -1,0 +1,86 @@
+.conteiner__taitl-nav{
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  @media not all, (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px), (min-resolution: 192dpi) and (min-width: 280px), (min-resolution: 2dppx) and (min-width: 280px){
+  .herov-section {
+    background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url("../images/mobile/bg-main@2x.jpg");}
+
+}
+
+.conteiner__hero {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .list__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+   }
+  .list__icon {
+      width: 70px;
+      height: 70px;
+   }
+  
+  .herov-section {
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    margin: 0px auto;
+    max-width: 1600px;
+    
+    background-color: #2f303a;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../images/overlay/overlay-bg1.png"),url("../images/overlay/overlay-Img.jpg"),url("../images/overlay/overlay-Img.png");
+    background-position: center;
+  }
+  
+ .conteiner__taitl {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--wait-color);
+  margin-bottom: 30px;
+  }
+ .btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--wait-color);
+     background: #0e83e2;
+     
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 32px;
+     padding-right: 32px;
+     border: none;
+     border-radius: 4px;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+
+     &:hover,
+     &:focus {
+       background: #2196F3;
+       color:var(--wait-color);
+     }
+ }
+  

@@ -1,0 +1,212 @@
+.footer-color {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 1199px){
+  .footer-color  {
+    text-align: center;
+    padding-bottom: 120px;
+    text-align: center;}
+}
+    .footer-adress{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+ 
+    @media screen and (max-width: 1199px){
+    .footer-adress {
+        margin-bottom: 60px;}
+    }   
+  
+
+  .logo-footer {
+    font-family: var(--secondery-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    display: flex;
+     margin-bottom: 20px;
+  
+  }
+  
+  .address {
+    width: 231px;
+    height: 21px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    display: flex;
+    margin-bottom: 9px;
+   
+  }
+  .footer-item {
+    margin-bottom: 8px;
+  } 
+  
+  .footer-link {
+    width: 231px;
+    height: 21px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+     display: flex;
+   
+  }
+  
+  .footer-social {
+      margin-left: 70px;
+      display: block;
+    height: 80px;
+    width: 206px;
+  }
+
+  @media screen and (max-width: 767px){
+    .footer-social {
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;}
+}
+  .footer-social-title {
+    display: block;
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.17;
+      color:var(--wait-color);
+      text-transform: uppercase;
+  }
+  .footer-social-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    max-width: 204px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  .social-link:not(:last-child) {
+      margin-right: 10px;
+  }
+  .footer-social-icon {
+      fill:var(--wait-color);
+      } 
+      .social-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      color: #afb1b8;
+      transition: var(--main-duration) var(--timing-function);
+       &:hover,
+       &:focus{
+        background-color:var(--acsent-color);
+       }
+      }
+   
+      .footer-social-link {
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+    .footer-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;}
+  }
+
+  @media screen and (min-width: 1200px){
+  .footer-wrapper  {
+    display: flex;
+    align-items: baseline;}
+}
+
+
+  .social-icon {
+      fill: currentColor;
+      width: 20px;
+      height: 20px;
+  }
+  .footer-social-icon {
+      fill:var(--wait-color);
+  }
+  .mail-foter{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer-input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+      color: var(--wait-color);
+      padding-left: 16px;
+  }
+  .footer-mail-title{
+    height: 86px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1199px){
+  .mail-foter {
+      flex-direction: column;
+      align-items: center;}
+  }
+  .footer-label{
+    margin-bottom: 20px;
+    width: 100%;
+}
+  .footer-button{
+    position: relative;
+      width: 200px;
+      height: 50px;
+      margin-left: 12px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.06em;
+      color:var(--wait-color);
+      background-color:var(--acsent-color);
+      border-radius: 4px;
+      cursor: pointer;
+      padding-left: 29px;
+      padding-right: 62px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: none;
+      transition: background-color var(--main-duration) var(--color-shadow);
+         &:hover,
+         &:focus {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          background-color:var(--hover-button-backcolor);
+      }
+  }
+
+  .footer-input-logo {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  width: 24px;
+  height: 24px;
+  }
+
+  @media screen and (min-width: 1200px){
+.footer-mail-title {
+    width: 570px;
+    margin-left: auto;}
+}

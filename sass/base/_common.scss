@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+}
+.link {
+  text-decoration: none;
+}
+.page {
+  color: var(--text-gray);
+  font-family: var(--main-font);
+  margin: 0;
+}
+.ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
