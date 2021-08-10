@@ -40,6 +40,10 @@
         background-color: #0e83e2
     }
   }
+  @media screen and (max-width: 767px){
+.mob-menu__button:hover .mob-menu__icon, .mob-menu__button:focus .mob-menu__icon{
+    fill: var(--acsent-color);}
+}
  
   .modal-form-input{
     width: 100%;
