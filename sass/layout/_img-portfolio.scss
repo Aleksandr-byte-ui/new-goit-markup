@@ -9,6 +9,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 
 .portfolio-list {
+  display: flex;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
@@ -18,6 +19,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   margin-bottom: 4px;
 }
 .descrip {
+  display: flex;
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
@@ -36,7 +38,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     top: 0%;
     left: 0;
     background: rgba(33, 150, 243, 0.9);
-    transform: translateY(100%);
+    transform: translateX(-100%);
     transition: var(--main-duration) var(--timing-function);
     overflow: hidden;
     .cart:hover &,

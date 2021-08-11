@@ -1,7 +1,6 @@
 .btn-conteiner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin-bottom: 40px;
   }
 
@@ -10,7 +9,17 @@
       margin-top: -15px;
       margin-right: -8px;}
   }
-  
+
+  @media screen and (min-width: 1200px){
+    .btn-conteiner  {
+      justify-content: center;
+      margin-bottom: 50px;}
+    }
+    @media screen and (min-width: 768px){
+      .btn-conteiner {
+        justify-content: center;
+        margin-bottom: 30px;}
+    }
   
   .btn-cont:not(:last-child) {
     display: flex;
