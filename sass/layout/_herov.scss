@@ -1,4 +1,4 @@
-.conteiner__taitl-nav{
+.conteiner__taitl-nav {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto; 
@@ -35,10 +35,7 @@
     padding-bottom: 118px;
     margin: 0px auto;
     max-width: 1600px;
-    
     background-color: #2f303a;
-    padding-bottom: 200px;
-    padding-top: 200px;
     height: 600px;
     max-width: 1600px;
     margin-left: auto;
@@ -46,6 +43,14 @@
     background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../images/overlay/overlay-bg1.png"),url("../images/overlay/overlay-Img.jpg"),url("../images/overlay/overlay-Img.png");
     background-position: center;
   }
+    
+  @media screen and (min-width: 1200px){
+    .herov-section {
+      padding-top: 200px;
+      padding-bottom: 200px;}
+    
+  }
+
   
  .conteiner__taitl {
   font-weight: 900;
@@ -56,6 +61,13 @@
   color: var(--wait-color);
   margin-bottom: 30px;
   }
+
+  @media screen and (min-width: 1200px){
+    .conteiner__taitl{
+        font-size: 44px;
+        line-height: 1.36; }
+    }
+
  .btn {
     font-weight: 700;
     font-size: 16px;
